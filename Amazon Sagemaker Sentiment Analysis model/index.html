@@ -30,18 +30,74 @@
          }
         </script>
 
+        <style>
+            nav 
+            {
+                background-color: #282828;
+                text-align: center;
+                display: block;
+                position: sticky;
+                left: 0;
+                top: 0;
+                width: 100%;
+                z-index: 10000;
+                cursor: default;
+                height: 3.5em;
+                line-height: 3.5em;
+            }
+
+            ul {
+                margin-bottom: 0;
+                list-style: none;
+                padding-left: 0;}
+
+            li {
+                display: inline-block;
+                padding-left: 0;
+            }
+
+            p {
+                position: relative;
+                display: block;
+                color: #fff;
+                text-decoration: none;
+                outline: 0;
+                font-weight: 1200;
+                border-radius: 8px;
+                color: #fff;
+                height: 2.5em;
+                line-height: 2.5em;
+                padding: 0 1.25em;
+            }
+
+            .container {
+                margin: 0 auto;
+                max-width: calc(100% - 50px);
+                width: 1200px;
+            }
+
+            
+        </style>
+
+
+
     </head>
     <body>
 
+        <nav id="nav">
+            <ul class="container">
+                <li><p>Post your review and help other users know about the movie</p></li>
+            </ul>
+        </nav>
+
         <div class="container">
-            <h1>Is your review positive, or negative?</h1>
-            <p>Enter your review below and click submit to find out...</p>
+            <!-- <p>Please Enter your review for the movie</p> -->
             <form method="POST"
                   action="**REPLACE WITH PUBLIC API URL**"
                   onsubmit="return submitForm(this);" >                     <!-- HERE IS WHERE YOU NEED TO ENTER THE API URL -->
                 <div class="form-group">
-                    <label for="review">Review:</label>
-                    <textarea class="form-control"  rows="5" id="review">Please write your review here.</textarea>
+                    <label for="review"></label>
+                    <textarea class="form-control"  rows="5" id="review", placeholder="Please write your review here."></textarea>
                 </div>
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
