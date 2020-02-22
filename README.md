@@ -13,4 +13,4 @@ Contains list of projects under Deep Learning Nano Degree Program
 
 **Please go through the projects thorougly to get clear understanding of what's happening. However, if you wish to run the projects on your local machine then you might encounter few problems. Hence, please go through the code and install the dependencies and download the datasets as required.**
 
-**Please note that the last project requires AWS Sagemaker to run successfully. **
+**Please note that the last project requires AWS Sagemaker to run successfully.**
