@@ -11,6 +11,6 @@ Contains list of projects under Deep Learning Nano Degree Program
 
 5. **[Deploying Sentiment Analysis model using AWS Sagemaker](https://github.com/dipaxce/Udacity-DeepLearning-Nano-Degree/tree/master/Amazon%20Sagemaker%20Sentiment%20Analysis%20model):** The project contains Sentiment Analysis model, generated using an Recurrent Neural Network (RNN). The model takes IMDB datasets and provides feedback on if the review is positive or negative. (Project will be uploaded soon)
 
-**Please go through the projects thorougly to get clear understanding of what's happening. However, if you wish to run the projects on your local machine then you might encounter few problems. Hence, please go through the code and install the dependencies and download the datasets as required.
+**Please go through the projects thorougly to get clear understanding of what's happening. However, if you wish to run the projects on your local machine then you might encounter few problems. Hence, please go through the code and install the dependencies and download the datasets as required.**
 
-**Please note that the last project requires AWS Sagemaker to run successfully. 
+**Please note that the last project requires AWS Sagemaker to run successfully. **
